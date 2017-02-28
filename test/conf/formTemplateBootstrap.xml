@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<identityForm>
+    <property ng-model="Name" required="true" name="displayName" type="text" defaultValue="" calculatedValue="" class="form-control">
+        <hint>Enter Display Name</hint>
+        <label>Display Name</label>
+    </property>
+    
+    <property ng-model="Email" name="email" type="email" defaultValue="" calculatedValue="" class="form-control"> 
+         <hint>Enter Email</hint>   
+         <label>Email</label>        
+    </property>
+    
+    <property ng-model="Phone" name="phoneNumber" type="text" defaultValue="" calculatedValue="" class="form-control">
+         <hint>Enter Phone number</hint>   
+         <label>Phone number</label>        
+    </property>
+    
+    <property ng-model="Date" name="birthDate" type="date" defaultValue="" calculatedValue="" class="form-control">  
+         <hint>mm/dd/yyyy</hint> 
+         <label>Birthdate</label>        
+    </property>
+</identityForm>
